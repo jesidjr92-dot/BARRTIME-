@@ -1,37 +1,6 @@
 import { CaliberArchitecture, StrapOption, Timepiece } from '../types/horology';
 
-export const STRAP_OPTIONS: Record<string, StrapOption> = {
-  fkm_carbon: {
-    id: 'fkm_carbon',
-    name: 'Caucho Técnico Negro Mate',
-    material: 'Elastómero vulcanizado con cierre desplegable en titanio',
-    priceDelta: 0,
-  },
-  titanium_g5: {
-    id: 'titanium_g5',
-    name: 'Brazalete Titanio Grado 5',
-    material: 'Eslabones macizos cepillados con microajuste de 4 mm',
-    priceDelta: 1450,
-  },
-  steel_904l: {
-    id: 'steel_904l',
-    name: 'Brazalete Integrado 904L',
-    material: 'Acero quirúrgico cepillado a mano con biselado pulido',
-    priceDelta: 0,
-  },
-  alligator_anthracite: {
-    id: 'alligator_anthracite',
-    name: 'Piel Mate Antracita',
-    material: 'Piel cosida a mano con forro de becerro hidrófugo',
-    priceDelta: 680,
-  },
-  forged_link: {
-    id: 'forged_link',
-    name: 'Brazalete Titanio y Tornillos Oscuros',
-    material: 'Arquitectura técnica articulada con tornillería visible',
-    priceDelta: 950,
-  },
-};
+
 
 export const TIMEPIECES: Timepiece[] = [
   {
