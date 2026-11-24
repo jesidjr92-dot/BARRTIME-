@@ -40,7 +40,7 @@ export const TIMEPIECES: Timepiece[] = [
     collection: 'Cronómetro Negro',
     name: 'Cronómetro Negro Calibre 901',
     category: 'Cronógrafos',
-    priceEur: 18400,
+    priceEur: 90000,
     image: '/src/assets/images/hero_horology_flagship_1795474645218.jpg',
     aspectRatio: '4:3',
     availability: 'Edición Numerada',
